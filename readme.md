@@ -100,7 +100,6 @@ Create `.vscode/settings.json`
 
 ### Summary
 
-- [Git conventions](conventions.md)
 - [library & tools](tools.md)
 
 ### Package maintenance
@@ -110,8 +109,3 @@ A modern cli tool that keeps your deps fresh
 ```bash
 npx taze
 ```
-
-
-## VSCODE Addons
-
-- [js-standard](https://marketplace.visualstudio.com/items?itemName=standard.vscode-standard)
