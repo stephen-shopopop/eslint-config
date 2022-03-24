@@ -37,7 +37,6 @@
     "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
     "fix": "standard-version -- --release-as minor",
-    "doc": "rimraf out && jsdoc src"
   },
   "simple-git-hooks": {
     "pre-commit": "npx commitlint --edit $1 & npm run lint"
@@ -56,8 +55,6 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "eslint": "^8.11.0",
-    "jsdoc": "^3.6.10",
-    "rimraf": "^3.0.2",
     "simple-git-hooks": "^2.7.0",
     "snazzy": "^9.0.0",
     "standard": "^16.0.4",
