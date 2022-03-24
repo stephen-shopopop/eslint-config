@@ -9,7 +9,26 @@
 
 ## Description
 
-Eslint for node & typescript
+Eslint configuration for node & typescript
+
+**ESLINT:**
+
+- [Typescript ESLint](https://typescript-eslint.io)
+- [ESLint configuration](https://eslint.org/docs/user-guide/configuring/)
+- [ESLint rules](https://eslint.org/docs/rules/)
+- [ESLint standard](https://www.npmjs.com/package/eslint-config-standard)
+- [ESLint unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [ESLint comments](https://mysticatea.github.io/eslint-plugin-eslint-comments/)
+- [ESLint import](https://github.com/import-js/eslint-plugin-import)
+- [ESLint json](https://www.npmjs.com/package/eslint-plugin-jsonc)
+- [ESLint promise](https://www.npmjs.com/package/eslint-plugin-promise)
+- [ESLint yaml](https://www.npmjs.com/package/eslint-plugin-yml) (for CI)
+- [ESLint prettier](https://github.com/prettier/eslint-config-prettier)
+- [ESLint node](https://www.npmjs.com/package/eslint-plugin-n)
+- [ESLint jest](https://www.npmjs.com/package/eslint-plugin-jest)
+- [ESLint parser json](https://www.npmjs.com/package/jsonc-eslint-parser)
+- [ESLint parser yaml](https://www.npmjs.com/package/yaml-eslint-parser)
+
 
 ## Contributing
 
