@@ -1,19 +1,5 @@
 # LIBRARY & TOOLS
 
-## JEST
-
-- https://jestjs.io/docs/api#describename-fn
-- https://jestjs.io/docs/expect
-
-# MOCHA - CHAI
-
-- https://mochajs.org
-- https://www.chaijs.com
-
-## JSDOC
-
-- https://github.com/jsdoc/jsdoc
-
 ## Simple-git-hook:
 
 - https://github.com/toplenboren/simple-git-hooks
