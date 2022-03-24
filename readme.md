@@ -35,7 +35,7 @@ npm add -D eslint @stephen-shopopop/eslint-config
 
 ### Add script for package.json
 
-For example nodejs:
+For example nodejs/js:
 
 ```json
 {
