@@ -30,10 +30,7 @@
     "stephendltg"
   ],
   "scripts": {
-    "lint:test": "eslint . --config=index.js",
-    "test": "jest --reporters=default",
-    "lint": "npx standard --verbose | snazzy",
-    "lint:fix": "npx standard --fix",
+    "lint": "eslint . --config=index.js",
     "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
     "fix": "standard-version -- --release-as minor",
@@ -56,8 +53,6 @@
     "@commitlint/config-conventional": "^16.0.0",
     "eslint": "^8.11.0",
     "simple-git-hooks": "^2.7.0",
-    "snazzy": "^9.0.0",
-    "standard": "^16.0.4",
     "standard-version": "^9.3.2"
   },
   "dependencies": {
