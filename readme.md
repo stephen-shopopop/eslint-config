@@ -90,11 +90,8 @@ Create `.vscode/settings.json`
 
 ## Contributing
 
-1. npm run lint:test - eslint test config
-2. npm test - Run test with jest.
-3. npm run lint - Lint your code.
-4. npm run lint:fix - Lint & fix your code.
-5. npm run release - Release library
+1. npm run lint - eslint test config
+2. npm run release - Release library && publish
 
 ## Docs
 
