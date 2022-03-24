@@ -11,6 +11,55 @@
 
 Eslint configuration for node & typescript
 
+## Usage
+
+### Install
+
+Add .npmrc file in your repository
+
+> @stephen-shopopop:registry=https://npm.pkg.github.com
+
+```bash
+npm add -D eslint @stephen-shopopop/eslint-config
+```
+
+### Config `.eslintrc`
+
+```json
+{
+  "extends": "@stephen-shopopop/eslint-config"
+}
+```
+
+> You don't need `.eslintignore` normally as it has been provided by the preset.
+
+### Add script for package.json
+
+For example:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
+```
+
+### Config VS Code auto fix
+
+Create `.vscode/settings.json`
+
+```json
+{
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
+
+## DETAILS
+
 **ESLINT:**
 
 - [Typescript ESLint](https://typescript-eslint.io)
@@ -36,9 +85,7 @@ Eslint configuration for node & typescript
 2. npm test - Run test with jest.
 3. npm run lint - Lint your code.
 4. npm run lint:fix - Lint & fix your code.
-5. npm run doc - Generate html doc.
-6. npm run release - Release library
-7. npm run fix - Fix library
+5. npm run release - Release library
 
 ## Docs
 
