@@ -41,8 +41,7 @@
   },
   "standard": {
     "ignore": [
-      "out/",
-      "jest.config.js"
+      "out/"
     ]
   },
   "keywords": [
@@ -53,9 +52,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "chai": "^4.3.4",
     "eslint": "^8.11.0",
-    "jest": "^27.5.0",
     "jsdoc": "^3.6.10",
     "rimraf": "^3.0.2",
     "simple-git-hooks": "^2.7.0",
