@@ -15,7 +15,7 @@ Eslint configuration for node & typescript
 
 ### Install
 
-Add .npmrc file in your repository
+Add .npmrc file in your project
 
 > @stephen-shopopop:registry=https://npm.pkg.github.com
 
