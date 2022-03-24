@@ -3,7 +3,6 @@ module.exports = {
     "es6": true,
     "browser": true,
     "node": true,
-    "jest/globals": true,
   },
   extends: [
     "standard",
@@ -12,7 +11,6 @@ module.exports = {
     "plugin:jsonc/recommended-with-jsonc",
     "plugin:yml/standard",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
     "plugin:promise/recommended",
     "plugin:security-node/recommended",
     "plugin:n/recommended" // for nodejs esm
@@ -25,10 +23,7 @@ module.exports = {
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },
-    },
-    "jest": {
-      version: 27,
-    },
+    }
   },
   overrides: [
     {
@@ -197,7 +192,7 @@ module.exports = {
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "consistent-return": "off",
-    "complexity": ["off", 11],
+    "complexity": ["error", 20],
     "eqeqeq": ["error", "smart"],
     "no-alert": "warn",
     "no-case-declarations": "error",
