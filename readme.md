@@ -84,7 +84,6 @@ Create `.vscode/settings.json`
 - [ESLint yaml](https://www.npmjs.com/package/eslint-plugin-yml) (for CI)
 - [ESLint prettier](https://github.com/prettier/eslint-config-prettier)
 - [ESLint node](https://www.npmjs.com/package/eslint-plugin-n)
-- [ESLint jest](https://www.npmjs.com/package/eslint-plugin-jest)
 - [ESLint parser json](https://www.npmjs.com/package/jsonc-eslint-parser)
 - [ESLint parser yaml](https://www.npmjs.com/package/yaml-eslint-parser)
 
