@@ -30,7 +30,7 @@
     "stephendltg"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js",
+    "lint:test": "eslint . --config=index.js",
     "test": "jest --reporters=default",
     "lint": "npx standard --verbose | snazzy",
     "lint:fix": "npx standard --fix",
