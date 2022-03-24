@@ -38,13 +38,10 @@
   "simple-git-hooks": {
     "pre-commit": "npx commitlint --edit $1 & npm run lint"
   },
-  "standard": {
-    "ignore": [
-      "out/"
-    ]
-  },
   "keywords": [
-    "eslint"
+    "eslint",
+    "nodejs",
+    "typescript"
   ],
   "author": "stephen-shopopop<stephen-deletang@shopopop.com>",
   "license": "ISC",
