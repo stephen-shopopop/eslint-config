@@ -2,10 +2,21 @@
   "name": "@stephen-shopopop/eslint-config",
   "version": "1.0.0",
   "description": "eslint config nodejs typescript",
-  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "nodejs",
+    "typescript"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen-shopopop/eslint-config.git"
+  },
+  "author": "stephen-shopopop<stephen-deletang@shopopop.com>",
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "private": true,
   "engine": {
     "node": ">=14.16.1",
@@ -16,10 +27,6 @@
     "linux",
     "win32"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stephen-shopopop/eslint-config.git"
-  },
   "bugs": {
     "url": "https://github.com/stephen-shopopop/eslint-config/issues"
   },
@@ -31,27 +38,15 @@
   ],
   "scripts": {
     "lint": "eslint . --config=index.js",
+    "lint:fix": "npm run lint -- --fix",
     "release": "standard-version && npm publish",
     "prerelease": "standard-version -- --prerelease",
-    "fix": "standard-version -- --release-as minor",
+    "fix": "standard-version -- --release-as minor"
   },
   "simple-git-hooks": {
     "pre-commit": "npx commitlint --edit $1 & npm run lint"
   },
-  "keywords": [
-    "eslint",
-    "nodejs",
-    "typescript"
-  ],
-  "author": "stephen-shopopop<stephen-deletang@shopopop.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "eslint": "^8.11.0",
-    "simple-git-hooks": "^2.7.0",
-    "standard-version": "^9.3.2"
-  },
+  "eslintIgnore": ["package-lock.json"],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
@@ -67,5 +62,12 @@
     "eslint-plugin-yml": "^0.12.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "eslint": "^8.11.0",
+    "simple-git-hooks": "^2.7.0",
+    "standard-version": "^9.3.2"
   }
 }

@@ -1,8 +1,8 @@
 module.exports = {
   env: {
-    "es6": true,
-    "browser": true,
-    "node": true,
+    es6: true,
+    browser: true,
+    node: true,
   },
   extends: [
     "standard",
@@ -13,7 +13,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:security-node/recommended",
-    "plugin:n/recommended" // for nodejs esm
+    "plugin:n/recommended", // for nodejs esm
   ],
   plugins: [
     "promise",
@@ -23,7 +23,7 @@ module.exports = {
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },
-    }
+    },
   },
   overrides: [
     {
