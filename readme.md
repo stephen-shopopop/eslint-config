@@ -40,7 +40,8 @@ For example:
 ```json
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
   }
 }
 ```
@@ -50,7 +51,8 @@ For example typescript:
 ```json
 {
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
   }
 }
 ```
