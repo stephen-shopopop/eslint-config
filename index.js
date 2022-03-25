@@ -222,11 +222,13 @@ module.exports = {
     "require-await": "off",
     "no-return-assign": "off",
     "operator-linebreak": ["error", "before"],
+    "default-param-last": ["error"],
 
     // Others
     "radix": "error",
     "max-len": ["error", { code: 120, ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true }],
     "max-lines": ["error", 1000],
+    "max-params": ["error", 3],
 
     // unicorns
     // Pass error message when throwing errors
