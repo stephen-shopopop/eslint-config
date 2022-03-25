@@ -9,7 +9,7 @@
 
 ## Description
 
-Eslint configuration for node & typescript
+Eslint configuration for typescript
 
 ## Usage
 
@@ -35,7 +35,7 @@ npm add -D eslint @stephen-shopopop/eslint-config
 
 ### Add script for package.json
 
-For example nodejs/js:
+For example:
 
 ```json
 {
