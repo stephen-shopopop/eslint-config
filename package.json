@@ -38,7 +38,7 @@
   "scripts": {
     "lint": "eslint . --config=index.js",
     "lint:fix": "npm run lint -- --fix",
-    "release": "standard-version && npm publish",
+    "release": "standard-version",
     "prerelease": "standard-version -- --prerelease",
     "fix": "standard-version -- --release-as minor"
   },
