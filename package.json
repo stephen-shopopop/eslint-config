@@ -1,6 +1,6 @@
 {
   "name": "@stephen-shopopop/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint config nodejs typescript",
   "keywords": [
     "eslint",
