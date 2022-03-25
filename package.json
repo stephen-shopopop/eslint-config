@@ -1,6 +1,6 @@
 {
   "name": "@stephen-shopopop/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config nodejs typescript",
   "keywords": [
     "eslint",
@@ -45,7 +45,9 @@
   "simple-git-hooks": {
     "pre-commit": "npx commitlint --edit $1 & npm run lint"
   },
-  "eslintIgnore": ["package-lock.json"],
+  "eslintIgnore": [
+    "package-lock.json"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
