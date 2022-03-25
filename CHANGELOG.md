@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/stephen-shopopop/eslint-config/compare/v1.1.1...v1.1.2) (2022-03-25)
+
+
+### Bug Fixes
+
+* **eslint:** FIX pattern ignore file package-lock.json ([ee49b58](https://github.com/stephen-shopopop/eslint-config/commit/ee49b58a467d1271b2ff1a27594de264e1f6dd60))
+
 ### [1.1.1](https://github.com/stephen-shopopop/eslint-config/compare/v1.1.0...v1.1.1) (2022-03-25)
 
 ## [1.1.0](https://github.com/stephen-shopopop/eslint-config/compare/v1.0.4...v1.1.0) (2022-03-25)
