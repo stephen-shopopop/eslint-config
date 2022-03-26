@@ -13,7 +13,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:security-node/recommended",
-    "plugin:n/recommended", // for nodejs esm
+    // "plugin:n/recommended", // for nodejs esm
   ],
   ignorePatterns: [
     "*.min.*",
