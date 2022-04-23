@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/stephen-shopopop/eslint-config/compare/v1.4.7...v1.5.0) (2022-04-23)
+
+
+### Features
+
+* **packages:** bump version ([8b0ad65](https://github.com/stephen-shopopop/eslint-config/commit/8b0ad65bf5880999321220b802fb1079a0d75b02))
+
 ### [1.4.7](https://github.com/stephen-shopopop/eslint-config/compare/v1.4.6...v1.4.7) (2022-03-28)
 
 ### [1.4.6](https://github.com/stephen-shopopop/eslint-config/compare/v1.4.5...v1.4.6) (2022-03-28)
