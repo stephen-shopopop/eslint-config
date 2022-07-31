@@ -10,10 +10,8 @@ module.exports = {
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-jsonc",
     "plugin:yml/standard",
-    "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:security-node/recommended",
-    // "plugin:n/recommended", // for nodejs esm
   ],
   ignorePatterns: [
     "*.min.*",
@@ -109,6 +107,9 @@ module.exports = {
       rules: {
         "@typescript-eslint/no-var-requires": "off",
       },
+      extends: [
+        "plugin:n/recommended",
+      ],
     },
     {
       files: ["scripts/**/*.*"],
@@ -121,6 +122,14 @@ module.exports = {
       rules: {
         "no-unused-expressions": "off",
       },
+    },
+    {
+      files: ["*.ts", "*.tsx"],
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      ],
+      parserOptions: { project: ["./tsconfig.json"] },
     },
   ],
   rules: {
